@@ -164,7 +164,7 @@ export default function App() {
   return (
     <div ref={containerRef} className="min-h-screen font-sans">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 glass py-4 px-6">
+      <nav className="fixed top-0 w-full z-50 glass py-2 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
